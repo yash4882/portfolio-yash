@@ -1,0 +1,6 @@
+.typing-text {
+    display: block;
+    min-height: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+}
