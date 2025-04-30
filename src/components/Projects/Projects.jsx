@@ -153,32 +153,32 @@ const Projects = () => {
                 </div>
                 <div className="projects__content">
                     <div>
-                        <i className="uil-bus projects__icon"></i>
-                        <h3 className="projects__title">Reservation System</h3>
+                        <i className="uil uil-store projects__icon"></i>
+                        <h3 className="projects__title">Ecommerce</h3>
                     </div>
                     <span className="projects__button" onClick={() => toggleTab(5)}>View More <i className="uil uil-arrow-right projects__button-icon" ></i></span>
                     <div className={toggleState === 5 ? "projects__modal active-modal" : "projects__modal"}>
                         <div className="projects__modal-content">
                             <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
-                            <h3 className="projects__modal-title">Bus Reservation System</h3>
-                            <p className="projects__modal-description">Developed a Bus Reservation System that allows users to search, book, and cancel bus tickets. Implemented seat selection, booking history, and admin panel for schedule management. Technologies used: HTML, CSS, JavaScript, PostgreSQL, and Ruby on Rails.</p>
+                            <h3 className="projects__modal-title">Plant E-commerce Website</h3>
+                            <p className="projects__modal-description">Built a responsive full-stack plant store using HTML, CSS, JS, TailwindCSS, Node.js, Express, and MongoDB. Integrated Stripe for payments, Cloudinary for image management, and deployed on Vercel. Features include user auth, cart, and order processing.</p>
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Implemented features like seat selection, ticket booking, cancellation, and booking history for users.
+                                        Developed user-friendly UI with TailwindCSS for seamless browsing across devices.
                                     </p>
                                 </li>
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Built an admin panel to manage routes, schedules, and bus details efficiently.
+                                        Implemented Stripe integration for secure and real-time payment processing.
                                     </p>
                                 </li>
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle projects__modal-icon"></i>
                                     <p className="projects__modal-info">
-                                        Applied data validations and error handling to ensure accurate user inputs and reliable transactions.
+                                        Designed and developed RESTful APIs for cart, orders, and user management
                                     </p>
                                 </li>
                             </ul>
