@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-yash/static/css/main.304d5a9b.css",
-    "main.js": "/portfolio-yash/static/js/main.94898eab.js",
+    "main.css": "/portfolio-yash/static/css/main.4ef951c2.css",
+    "main.js": "/portfolio-yash/static/js/main.d098a4dd.js",
     "static/js/453.1407b060.chunk.js": "/portfolio-yash/static/js/453.1407b060.chunk.js",
     "static/media/about.png": "/portfolio-yash/static/media/about.5270cdcc9f69b0d03750.png",
     "static/media/profile.png": "/portfolio-yash/static/media/profile.e02eec25d3838aa10a2b.png",
@@ -10,12 +10,12 @@
     "static/media/send.svg": "/portfolio-yash/static/media/send.99c8c09b1d47497fe8cebe935cc8405c.svg",
     "static/media/scroll.svg": "/portfolio-yash/static/media/scroll.083a8933455e8ad6b49dac04b76dcfae.svg",
     "index.html": "/portfolio-yash/index.html",
-    "main.304d5a9b.css.map": "/portfolio-yash/static/css/main.304d5a9b.css.map",
-    "main.94898eab.js.map": "/portfolio-yash/static/js/main.94898eab.js.map",
+    "main.4ef951c2.css.map": "/portfolio-yash/static/css/main.4ef951c2.css.map",
+    "main.d098a4dd.js.map": "/portfolio-yash/static/js/main.d098a4dd.js.map",
     "453.1407b060.chunk.js.map": "/portfolio-yash/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.304d5a9b.css",
-    "static/js/main.94898eab.js"
+    "static/css/main.4ef951c2.css",
+    "static/js/main.d098a4dd.js"
   ]
 }
