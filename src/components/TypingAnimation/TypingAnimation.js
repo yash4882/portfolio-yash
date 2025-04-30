@@ -24,7 +24,7 @@ const TypingAnimation = () => {
       }, 1000);
       return () => clearTimeout(timeoutId);
     }
-  }, [charIndex, currentTextIndex]);
+  }, [charIndex, currentTextIndex, typingTexts]);
 
   return <span className="typing-text">{displayedText}</span>;
 };

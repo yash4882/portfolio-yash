@@ -44,9 +44,13 @@ const Projects = () => {
                                     </p>
                                 </li>
                             </ul>
+                            <p className="projects__modal-github">
+                                <a href="https://www.b4traders.com" className='home__social-icon' target='_blank'><i className='uil uil-external-link-alt'></i></a>
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div className="projects__content">
                     <div>
                         <i className="uil uil-edit projects__icon"></i>
@@ -78,9 +82,51 @@ const Projects = () => {
                                     </p>
                                 </li>
                             </ul>
+                            <p className="projects__modal-github">
+                                <a href="https://www.b4traders.com/" className='home__social-icon' target='_blank'><i className='uil uil-external-link-alt'></i></a>
+                            </p>
                         </div>
                     </div>
                 </div>
+
+                <div className="projects__content">
+                    <div>
+                        <i className="uil uil-store projects__icon"></i>
+                        <h3 className="projects__title">Ecommerce</h3>
+                    </div>
+                    <span className="projects__button" onClick={() => toggleTab(5)}>View More <i className="uil uil-arrow-right projects__button-icon" ></i></span>
+                    <div className={toggleState === 5 ? "projects__modal active-modal" : "projects__modal"}>
+                        <div className="projects__modal-content">
+                            <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
+                            <h3 className="projects__modal-title">E-commerce Website</h3>
+                            <p className="projects__modal-description">Built a responsive full-stack plant store using HTML, CSS, JS, TailwindCSS, Node.js, Express, and MongoDB. Integrated Stripe for payments, Cloudinary for image management, and deployed on Vercel. Features include user auth, cart, and order processing.</p>
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle projects__modal-icon"></i>
+                                    <p className="projects__modal-info">
+                                        Developed user-friendly UI with TailwindCSS for seamless browsing across devices.
+                                    </p>
+                                </li>
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle projects__modal-icon"></i>
+                                    <p className="projects__modal-info">
+                                        Implemented Stripe integration for secure and real-time payment processing.
+                                    </p>
+                                </li>
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle projects__modal-icon"></i>
+                                    <p className="projects__modal-info">
+                                        Designed and developed RESTful APIs for cart, orders, and user management
+                                    </p>
+                                </li>
+                            </ul>
+                            <p className="projects__modal-github">
+                                <a href="https://pots-pals.vercel.app/" className='home__social-icon' target='_blank'><i className='uil uil-external-link-alt'></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="projects__content">
                     <div>
                         <i className="uil uil-building projects__icon"></i>
@@ -112,9 +158,51 @@ const Projects = () => {
                                     </p>
                                 </li>
                             </ul>
+                            <p className="projects__modal-github">
+                                <a href="https://github.com/yash4882/airbnb_clone" className='home__social-icon' target='_blank'><i className='uil uil-github-alt'></i></a>
+                            </p>
                         </div>
                     </div>
                 </div>
+
+                <div className="projects__content">
+                    <div>
+                        <i className="uil-bag-alt projects__icon"></i>
+                        <h3 className="projects__title">Portfolio</h3>
+                    </div>
+                    <span className="projects__button" onClick={() => toggleTab(6)}>View More <i className="uil uil-arrow-right projects__button-icon" ></i></span>
+                    <div className={toggleState === 6 ? "projects__modal active-modal" : "projects__modal"}>
+                        <div className="projects__modal-content">
+                            <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
+                            <h3 className="projects__modal-title">Portfolio Website</h3>
+                            <p className="projects__modal-description">Built a responsive portfolio website using HTML, CSS, JavaScript, and React. Optimized for mobile and desktop, with clean UI/UX and smooth performance. Used Git for version control and hosted on GitHub.</p>
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle projects__modal-icon"></i>
+                                    <p className="projects__modal-info">
+                                        Implemented responsive design principles to ensure seamless user experience across all screen sizes.
+                                    </p>
+                                </li>
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle projects__modal-icon"></i>
+                                    <p className="projects__modal-info">
+                                        Used React for modular, component-based development and efficient rendering.
+                                    </p>
+                                </li>
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle projects__modal-icon"></i>
+                                    <p className="projects__modal-info">
+                                        Showcased projects, skills, and contact information in a clean, user-friendly layout.
+                                    </p>
+                                </li>
+                            </ul>
+                            <p className="projects__modal-github">
+                                <a href="https://github.com/yash4882/portfolio-yash" className='home__social-icon' target='_blank'><i className='uil uil-github-alt'></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="projects__content">
                     <div>
                         <i className="uil-book-alt projects__icon"></i>
@@ -148,74 +236,9 @@ const Projects = () => {
                                     </p>
                                 </li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-                <div className="projects__content">
-                    <div>
-                        <i className="uil uil-store projects__icon"></i>
-                        <h3 className="projects__title">Ecommerce</h3>
-                    </div>
-                    <span className="projects__button" onClick={() => toggleTab(5)}>View More <i className="uil uil-arrow-right projects__button-icon" ></i></span>
-                    <div className={toggleState === 5 ? "projects__modal active-modal" : "projects__modal"}>
-                        <div className="projects__modal-content">
-                            <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
-                            <h3 className="projects__modal-title">Plant E-commerce Website</h3>
-                            <p className="projects__modal-description">Built a responsive full-stack plant store using HTML, CSS, JS, TailwindCSS, Node.js, Express, and MongoDB. Integrated Stripe for payments, Cloudinary for image management, and deployed on Vercel. Features include user auth, cart, and order processing.</p>
-                            <ul className="projects__modal-projects grid">
-                                <li className="projects__modal-project">
-                                    <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">
-                                        Developed user-friendly UI with TailwindCSS for seamless browsing across devices.
-                                    </p>
-                                </li>
-                                <li className="projects__modal-project">
-                                    <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">
-                                        Implemented Stripe integration for secure and real-time payment processing.
-                                    </p>
-                                </li>
-                                <li className="projects__modal-project">
-                                    <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">
-                                        Designed and developed RESTful APIs for cart, orders, and user management
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div className="projects__content">
-                    <div>
-                        <i className="uil-bag-alt projects__icon"></i>
-                        <h3 className="projects__title">Portfolio</h3>
-                    </div>
-                    <span className="projects__button" onClick={() => toggleTab(6)}>View More <i className="uil uil-arrow-right projects__button-icon" ></i></span>
-                    <div className={toggleState === 6 ? "projects__modal active-modal" : "projects__modal"}>
-                        <div className="projects__modal-content">
-                            <i onClick={() => toggleTab(0)} className="uil uil-times projects__modal-close"></i>
-                            <h3 className="projects__modal-title">Portfolio Website</h3>
-                            <p className="projects__modal-description">Built a responsive portfolio website using HTML, CSS, JavaScript, and React. Optimized for mobile and desktop, with clean UI/UX and smooth performance. Used Git for version control and hosted on GitHub.</p>
-                            <ul className="projects__modal-projects grid">
-                                <li className="projects__modal-project">
-                                    <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">
-                                        Implemented responsive design principles to ensure seamless user experience across all screen sizes.
-                                    </p>
-                                </li>
-                                <li className="projects__modal-project">
-                                    <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">
-                                        Used React for modular, component-based development and efficient rendering.
-                                    </p>
-                                </li>
-                                <li className="projects__modal-project">
-                                    <i className="uil uil-check-circle projects__modal-icon"></i>
-                                    <p className="projects__modal-info">
-                                        Showcased projects, skills, and contact information in a clean, user-friendly layout.
-                                    </p>
-                                </li>
-                            </ul>
+                            <p className="projects__modal-github">
+                                <a href="https://github.com/yash4882/BookStore" className='home__social-icon' target='_blank'><i className='uil uil-github-alt'></i></a>
+                            </p>
                         </div>
                     </div>
                 </div>
