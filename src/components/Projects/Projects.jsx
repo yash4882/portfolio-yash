@@ -121,7 +121,7 @@ const Projects = () => {
                                 </li>
                             </ul>
                             <p className="projects__modal-github">
-                                <a href="https://pots-pals.vercel.app/" className='home__social-icon' target='_blank'><i className='uil uil-external-link-alt'></i></a>
+                                <a href="https://pots-pals-yash-vasundhariyas-projects.vercel.app" className='home__social-icon' target='_blank'><i className='uil uil-external-link-alt'></i></a>
                             </p>
                         </div>
                     </div>
